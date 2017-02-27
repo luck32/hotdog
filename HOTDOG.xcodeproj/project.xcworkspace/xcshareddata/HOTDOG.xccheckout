@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>805077B8-42F2-4842-AD22-11B6FBA25104</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HOTDOG</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3C564278A0FC98532029348DA1C712FD4B5460C</key>
+		<string>https://github.com/AcapellaMedia/Hotdog-photo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HOTDOG.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3C564278A0FC98532029348DA1C712FD4B5460C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AcapellaMedia/Hotdog-photo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B3C564278A0FC98532029348DA1C712FD4B5460C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3C564278A0FC98532029348DA1C712FD4B5460C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hotdog-photo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

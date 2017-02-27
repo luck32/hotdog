@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PhotoOddCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PhotoOddTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo_Odd_Cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="PTs-iu-qJ4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="167"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="UYR-R7-Ewq">
+                        <rect key="frame" x="218" y="12" width="45" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="ARF-sk-Lbm"/>
+                            <constraint firstAttribute="height" constant="45" id="qFy-Rw-mmH"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey, this is me runnning earlier today. Aren't I cool?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bap-S9-mZb">
+                        <rect key="frame" x="169" y="59" width="143" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="143" id="8ry-BY-BlH"/>
+                            <constraint firstAttribute="height" constant="50" id="Lh0-BU-uFk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03/13/15 4:30PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-dP-dGo">
+                        <rect key="frame" x="245" y="142" width="67" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="67" id="YSc-az-Hhu"/>
+                            <constraint firstAttribute="height" constant="15" id="h1Q-xu-TQc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J1C-9e-33O">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="167"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="x1f-lu-tO9"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2d-1D-i9m">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="167"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="Uej-am-zJT"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="goDetailedPhoto:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hvI-7l-EIk"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCO-Q7-Qzu">
+                        <rect key="frame" x="215" y="12" width="50" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="31i-cK-b7P"/>
+                            <constraint firstAttribute="height" constant="45" id="wfz-48-lIh"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="goProfile:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cem-tz-RMU"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="J1C-9e-33O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2Gx-JU-9wP"/>
+                    <constraint firstAttribute="trailing" secondItem="Bap-S9-mZb" secondAttribute="trailing" constant="8" id="6hz-Gr-FRA"/>
+                    <constraint firstItem="PCO-Q7-Qzu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="6xL-zB-P3q"/>
+                    <constraint firstAttribute="bottom" secondItem="J1C-9e-33O" secondAttribute="bottom" id="8Nw-v0-Dtj"/>
+                    <constraint firstAttribute="bottom" secondItem="PTs-iu-qJ4" secondAttribute="bottom" id="BCk-M0-mIE"/>
+                    <constraint firstItem="r2d-1D-i9m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="D5j-6K-uEj"/>
+                    <constraint firstItem="UYR-R7-Ewq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="HGF-it-LNb"/>
+                    <constraint firstAttribute="bottom" secondItem="r2d-1D-i9m" secondAttribute="bottom" id="Msd-BM-6iV"/>
+                    <constraint firstItem="PTs-iu-qJ4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="REr-Mu-diJ"/>
+                    <constraint firstAttribute="trailing" secondItem="PCO-Q7-Qzu" secondAttribute="trailing" constant="55" id="Syk-Qm-Nzg"/>
+                    <constraint firstItem="J1C-9e-33O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="W9H-oc-J6y"/>
+                    <constraint firstItem="r2d-1D-i9m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="a5g-AQ-exB"/>
+                    <constraint firstAttribute="trailing" secondItem="UYR-R7-Ewq" secondAttribute="trailing" constant="57" id="bK5-U6-Guq"/>
+                    <constraint firstAttribute="trailing" secondItem="PTs-iu-qJ4" secondAttribute="trailing" id="pYO-bb-yrn"/>
+                    <constraint firstItem="PTs-iu-qJ4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="thn-l8-4V1"/>
+                    <constraint firstAttribute="trailing" secondItem="bWG-dP-dGo" secondAttribute="trailing" constant="8" id="ubL-xP-5zZ"/>
+                    <constraint firstItem="Bap-S9-mZb" firstAttribute="top" secondItem="UYR-R7-Ewq" secondAttribute="bottom" constant="2" id="whd-Yy-hQ5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bWG-dP-dGo" secondAttribute="bottom" constant="2" id="yhs-fZ-Wui"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="UYR-R7-Ewq" id="IXz-3a-L5w"/>
+                <outlet property="captionTxt" destination="Bap-S9-mZb" id="3My-MS-q0X"/>
+                <outlet property="createdOnTxt" destination="bWG-dP-dGo" id="L4V-CY-viL"/>
+                <outlet property="downloadMediaImageView" destination="J1C-9e-33O" id="1F5-Un-IAc"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Avatar.png" width="136" height="136"/>
+        <image name="Photo_Odd_Cell.png" width="640" height="337"/>
+    </resources>
+</document>
